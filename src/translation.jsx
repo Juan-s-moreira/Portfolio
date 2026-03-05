@@ -10,8 +10,8 @@ export const translations = {
       },
       hero: {
         greeting: "Hi, I'm",
-        name: "John Developer",
-        titles: ["Frontend Developer", "React Developer", "UI/UX Enthusiast", "Web Developer"],
+        name: "Juan Santos",
+        titles: ["Frontend Developer"],
         description:
           "I create modern web applications with React and cutting-edge frontend technologies. Passionate about clean code and exceptional user experiences.",
       },
@@ -140,8 +140,8 @@ export const translations = {
       },
       hero: {
         greeting: "Olá, eu sou",
-        name: "João Desenvolvedor",
-        titles: ["Desenvolvedor Frontend", "Desenvolvedor React", "Entusiasta UI/UX", "Desenvolvedor Web"],
+        name: "Juan Santos",
+        titles: ["Desenvolvedor Frontend"],
         description:
           "Eu crio aplicações web modernas com React e tecnologias frontend de ponta. Apaixonado por código limpo e experiências de usuário excepcionais.",
       },
