@@ -1,4 +1,4 @@
-import { translations } from "../translation"
+import { translations } from "../data/translation"
 import { useLanguage } from "../contexts/LanguageContext"
 
 const About = () => {
@@ -14,7 +14,7 @@ const About = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
                     {t.about.title}
                 </h2>
-                <div className="max-w-3xl mx-auto text-left md:text-justify">
+                <div className="max-w-3xl mx-auto text-center md:text-justify tracking-tight">
                     <p className="text-lg text-gray-300 leading-relaxed whitespace-pre-line">
                         {t.about.description}
                     </p>

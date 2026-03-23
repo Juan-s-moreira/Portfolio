@@ -1,17 +1,17 @@
 import { useState } from "react"
-import { translations } from "../translation"
+import { translations } from "../data/translation"
 import { useLanguage } from "../contexts/LanguageContext"
 import { Globe, Menu, X } from "lucide-react"
 
 
 
 const Header = () => {
-    const {language, toggleLanguage} = useLanguage()
+    const { language, toggleLanguage } = useLanguage()
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 
     const t = translations[language]
- 
+
 
     const scrollToSection = (sectionId) => {
         document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" })
@@ -31,22 +31,22 @@ const Header = () => {
                         <button
                             onClick={() => scrollToSection("about")}
 
-                            className="text-gray-400 hover:text-purple-300 transition-colors duration-300 cursor-pointer">{t.nav.about}</button>
+                            className="text-gray-300 hover:text-purple-300 transition-colors duration-300 cursor-pointer">{t.nav.about}</button>
                         <button
                             onClick={() => scrollToSection("projects")}
-                            className="text-gray-400 hover:text-purple-300 transition-colors duration-300 cursor-pointer">{t.nav.projects}</button>
+                            className="text-gray-300 hover:text-purple-300 transition-colors duration-300 cursor-pointer">{t.nav.projects}</button>
                         <button
                             onClick={() => scrollToSection("skills")}
 
-                            className="text-gray-400 hover:text-purple-300 transition-colors duration-300 cursor-pointer"> {t.nav.skills}</button>
+                            className="text-gray-300 hover:text-purple-300 transition-colors duration-300 cursor-pointer"> {t.nav.skills}</button>
                         <button
                             onClick={() => scrollToSection("education")}
 
-                            className="text-gray-400 hover:text-purple-300 transition-colors duration-300 cursor-pointer">{t.nav.education}</button>
+                            className="text-gray-300 hover:text-purple-300 transition-colors duration-300 cursor-pointer">{t.nav.education}</button>
                         <button
                             onClick={() => scrollToSection("contact")}
 
-                            className="text-gray-400 hover:text-purple-300 transition-colors duration-300 cursor-pointer">{t.nav.contact}</button>
+                            className="text-gray-300 hover:text-purple-300 transition-colors duration-300 cursor-pointer">{t.nav.contact}</button>
                     </nav>
 
 
@@ -56,7 +56,7 @@ const Header = () => {
                             {language.toUpperCase()}
                         </button>
 
-                        <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-gray-300 ">
+                        <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-gray-300 cursor-pointer">
                             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
 
                         </button>
@@ -68,27 +68,27 @@ const Header = () => {
                     <nav className="md:hidden py-4">
                         <div className="flex flex-col space-y-4">
                             <button
-                                // onClick={() => scrollToSection("about")}
+                                onClick={() => scrollToSection("about")}
                                 className="text-gray-300 hover:text-purple-400 transition-colors text-left">
                                 {t.nav.about}
                             </button>
                             <button
-                                // onClick={() => scrollToSection("about")}
+                                onClick={() => scrollToSection("projects")}
                                 className="text-gray-300 hover:text-purple-400 transition-colors text-left">
                                 {t.nav.projects}
                             </button>
                             <button
-                                // onClick={() => scrollToSection("about")}
+                                onClick={() => scrollToSection("skills")}
                                 className="text-gray-300 hover:text-purple-400 transition-colors text-left">
                                 {t.nav.skills}
                             </button>
                             <button
-                                // onClick={() => scrollToSection("about")}
+                                onClick={() => scrollToSection("education")}
                                 className="text-gray-300 hover:text-purple-400 transition-colors text-left">
                                 {t.nav.education}
                             </button>
                             <button
-                                // onClick={() => scrollToSection("about")}
+                                onClick={() => scrollToSection("contact")}
                                 className="text-gray-300 hover:text-purple-400 transition-colors text-left">
                                 {t.nav.contact}
                             </button>

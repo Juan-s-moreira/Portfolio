@@ -230,10 +230,10 @@ export const translations = {
     projects: {
       title: "Projetos em Destaque",
       project1: {
-        title: "Plataforma E-commerce",
+        title: "Fintrack",
         description:
           "Uma solução e-commerce full-stack construída com React, Node.js e PostgreSQL. Inclui autenticação de usuário, processamento de pagamentos e painel administrativo.",
-        tech: "React • Node.js • PostgreSQL • Stripe",
+        tech: "React • Node.js • MongoDB • Tailwind",
       },
       project2: {
         title: "App de Gerenciamento de Tarefas",
