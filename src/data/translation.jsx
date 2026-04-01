@@ -28,8 +28,23 @@ export const translations = {
       title: "Professional Experience",
       job1: {
         title: "Systems and Teleprompter Operator",
+        company: "Times Brasil | Exclusive CNBC Licensee",
+        period: "Sep 2025 - Present",
+        employmentType: "Part-time (Contractor)",
+        description:
+          "Technical operational support in a 'Hard News' environment, operating under CNBC’s international standards.",
+        achievements: [
+          "Responsible for real-time data integrity and flow for financial market anchors.",
+          "Operating critical text systems and video hardware during high-stakes live broadcasts.",
+          "Real-time technical troubleshooting under pressure, ensuring zero broadcast downtime.",
+          "Direct collaboration with top-tier journalists and executives, upholding global CNBC quality standards."
+        ],
+      },
+      job2: {
+        title: "Systems and Teleprompter Operator",
         company: "Digital TP - Produções e Serviços",
         period: "Nov 2021 - May 2024",
+        employmentType: "Full-time (Permanent)",
         description:
           "Provided technical support in audiovisual production for live concerts and music festivals, corporate events, live streams, and educational recordings.",
         achievements: [
@@ -94,9 +109,12 @@ export const translations = {
     },
     skills: {
       title: "Skills & Technologies",
-      frontend: "Frontend",
-      backend: "Backend",
-      tools: "Tools & Others",
+      items: [
+        "JavaScript (ES6+)", "HTML5", "CSS3", "React", "Node.js",
+        "Express.js", "Tailwind CSS", "MongoDB", "MERN Stack",
+        "RESTful APIs", "Responsive Design", "Web Accessibility (a11y)",
+        "Git", "GitHub", "English – C1 (Advanced)"
+      ]
     },
     contact: {
       title: "Get In Touch",
@@ -149,8 +167,23 @@ export const translations = {
       title: "Experiência",
       job1: {
         title: "Operador de Sistemas e Teleprompter",
+        company: "Times Brasil | Licenciado Exclusivo CNBC",
+        period: "Set 2025 - Presente",
+        employmentType: "Meio Período (PJ)",
+        description:
+          "Suporte técnico e operacional em ambiente de 'Hard News' sob padrões globais da CNBC.",
+        achievements: [
+          "Responsável pela integridade e fluxo de dados em tempo real para âncoras de mercado financeiro.",
+          "Operação de sistemas críticos e hardware de vídeo em transmissões ao vivo de alta complexidade.",
+          "Resolução de problemas técnicos (troubleshooting) sob pressão, garantindo estabilidade total da transmissão.",
+          "Interface direta com jornalistas e executivos, mantendo rigorosos padrões internacionais de qualidade."
+        ],
+      },
+      job2: {
+        title: "Operador de Sistemas e Teleprompter",
         company: "Digital TP - Produções e Serviços",
         period: "Nov 2021 - Mai 2024",
+        employmentType: "Tempo Integral (CLT)",
         description:
           "Atuação com suporte técnico no audiovisual para grandes shows, eventos corporativos, lives e gravações de aulas.",
         achievements: [
@@ -218,9 +251,12 @@ export const translations = {
     },
     skills: {
       title: "Habilidades & Tecnologias",
-      frontend: "Frontend",
-      backend: "Backend",
-      tools: "Ferramentas & Outros",
+      items: [
+        "JavaScript (ES6+)", "HTML5", "CSS3", "React", "Node.js",
+        "Express.js", "Tailwind CSS", "MongoDB", "MERN Stack",
+        "APIs RESTful", "Design Responsivo", "Acessibilidade Web (a11y)",
+        "Git", "GitHub", "Inglês – C1 (Avançado)"
+      ]
     },
     contact: {
       title: "Entre em Contato",
