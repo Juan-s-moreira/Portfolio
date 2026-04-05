@@ -25,46 +25,49 @@ export const translations = {
         Beyond independent development, I have practical experience delivering under pressure: I structured responsive interfaces and ranked in the Top 6 overall at the Codecon 2024 Hackathon.`,
     },
     experience: {
-      title: "Professional Experience",
-      job1: {
-        title: "Systems and Teleprompter Operator",
-        company: "Times Brasil | Exclusive CNBC Licensee",
-        period: "Sep 2025 - Present",
-        employmentType: "Part-time (Contractor)",
-        description:
-          "Technical operational support in a 'Hard News' environment, operating under CNBC’s international standards.",
-        achievements: [
-          "Responsible for real-time data integrity and flow for financial market anchors.",
-          "Operating critical text systems and video hardware during high-stakes live broadcasts.",
-          "Real-time technical troubleshooting under pressure, ensuring zero broadcast downtime.",
-          "Direct collaboration with top-tier journalists and executives, upholding global CNBC quality standards."
-        ],
-      },
-      job2: {
-        title: "Systems and Teleprompter Operator",
-        company: "Digital TP - Produções e Serviços",
-        period: "Nov 2021 - May 2024",
-        employmentType: "Full-time (Permanent)",
-        description:
-          "Provided technical support in audiovisual production for live concerts and music festivals, corporate events, live streams, and educational recordings.",
-        achievements: [
-          "Configured workstations, video hardware, and real-time display software.",
-          "Resolved critical system and hardware issues under high pressure and strict deadlines.",
-          "Collaborated directly with presenters and directors to ensure technical stability during productions.",
-          "Managed precise data flow and synchronization to guarantee seamless live broadcasts.",
-        ],
-      },
-      Hackathon: {
-        title: "Frontend Developer (Top 6)",
-        company: "Codecon",
-        period: "2024",
-        description: "Intensive 48-hour development of a smart waste management application.",
-        achievements: [
-          "Led the structuring of responsive layouts using HTML, CSS, and JavaScript.",
-          "Ranked among the top 6 projects in the overall competition.",
-          "Managed version control with Git in a multidisciplinary team under tight deadlines.",
-        ],
-      }
+      title: "Experience",
+      items: [
+        {
+          id: "cnbc",
+          title: "Systems and Teleprompter Operator",
+          company: "Times Brasil | CNBC Exclusive Licensee",
+          period: "Sep 2025 - Present",
+          employmentType: "Part-time (Contractor)",
+          description: "Technical and operational support in a 'Hard News' environment following CNBC's global standards.",
+          achievements: [
+            "Responsible for real-time data integrity and flow for financial market anchors.",
+            "Operation of critical systems and video hardware in high-complexity live broadcasts.",
+            "Troubleshooting technical issues under pressure, ensuring total broadcast stability.",
+            "Direct interface with journalists and executives, maintaining strict international quality standards."
+          ],
+        },
+        {
+          id: "digitaltp",
+          title: "Systems and Teleprompter Operator",
+          company: "Digital TP - Productions and Services",
+          period: "Nov 2021 - May 2024",
+          employmentType: "Full-time",
+          description: "Provided technical audiovisual support for major concerts, corporate events, live streams, and educational recordings.",
+          achievements: [
+            "Configuration of workstations, video hardware, and real-time playback software.",
+            "Resolved critical system and hardware issues under pressure and strict deadlines.",
+            "Direct interface with presenters and directors, ensuring technical stability during productions.",
+            "Precise control of data flow and synchronization to ensure broadcast continuity."
+          ],
+        },
+        {
+          id: "codecon-hackathon",
+          title: "Frontend Developer",
+          company: "Codecon",
+          period: "2024",
+          description: "Intensive development of a smart waste collection application within 48 hours.",
+          achievements: [
+            "Led the structuring of responsive layouts using HTML, CSS, and JavaScript.",
+            "Ranked among the Top 6 projects in the overall competition.",
+            "Managed version control with Git in a multidisciplinary team under strict deadlines."
+          ]
+        }
+      ]
     },
     education: {
       title: "Education",
@@ -165,45 +168,49 @@ export const translations = {
     },
     experience: {
       title: "Experiência",
-      job1: {
-        title: "Operador de Sistemas e Teleprompter",
-        company: "Times Brasil | Licenciado Exclusivo CNBC",
-        period: "Set 2025 - Presente",
-        employmentType: "Meio Período (PJ)",
-        description:
-          "Suporte técnico e operacional em ambiente de 'Hard News' sob padrões globais da CNBC.",
-        achievements: [
-          "Responsável pela integridade e fluxo de dados em tempo real para âncoras de mercado financeiro.",
-          "Operação de sistemas críticos e hardware de vídeo em transmissões ao vivo de alta complexidade.",
-          "Resolução de problemas técnicos (troubleshooting) sob pressão, garantindo estabilidade total da transmissão.",
-          "Interface direta com jornalistas e executivos, mantendo rigorosos padrões internacionais de qualidade."
-        ],
-      },
-      job2: {
-        title: "Operador de Sistemas e Teleprompter",
-        company: "Digital TP - Produções e Serviços",
-        period: "Nov 2021 - Mai 2024",
-        employmentType: "Tempo Integral (CLT)",
-        description:
-          "Atuação com suporte técnico no audiovisual para grandes shows, eventos corporativos, lives e gravações de aulas.",
-        achievements: [
-          "Configuração de estações de trabalho, hardware de vídeo e softwares de exibição em tempo real.",
-          "Resolução de problemas críticos de sistema e hardware sob pressão e prazos rigorosos.",
-          "Interface direta com apresentadores e diretores, garantindo estabilidade técnica durante as produções.",
-          "Controle preciso de fluxo de dados e sincronia para garantir a continuidade das transmissões.",
-        ],
-      },
-      Hackathon: {
-        title: "Desenvolvedor Frontend",
-        company: "Codecon",
-        period: "2024",
-        description: "Desenvolvimento intensivo de uma aplicação de coleta de lixo inteligente durante 48 horas.",
-        achievements: [
-          "Liderei a estruturação de layouts responsivos utilizando HTML, CSS e JavaScript.",
-          "Classificação entre os 6 melhores projetos da competição geral.",
-          "Gerenciamento de versionamento com Git em equipe multidisciplinar sob prazos rigorosos.",
-        ]
-      }
+      items: [
+        {
+          id: "cnbc",
+          title: "Operador de Sistemas e Teleprompter",
+          company: "Times Brasil | Licenciado Exclusivo CNBC",
+          period: "Set 2025 - Presente",
+          employmentType: "Meio Período (PJ)",
+          description: "Suporte técnico e operacional em ambiente de 'Hard News' sob padrões globais da CNBC.",
+          achievements: [
+            "Responsável pela integridade e fluxo de dados em tempo real para âncoras de mercado financeiro.",
+            "Operação de sistemas críticos e hardware de vídeo em transmissões ao vivo de alta complexidade.",
+            "Resolução de problemas técnicos (troubleshooting) sob pressão, garantindo estabilidade total da transmissão.",
+            "Interface direta com jornalistas e executivos, mantendo rigorosos padrões internacionais de qualidade."
+          ],
+        },
+        {
+          id: "digitaltp",
+          title: "Operador de Sistemas e Teleprompter",
+          company: "Digital TP - Produções e Serviços",
+          period: "Nov 2021 - Mai 2024",
+          employmentType: "Tempo Integral",
+          description: "Atuação com suporte técnico no audiovisual para grandes shows, eventos corporativos, lives e gravações de aulas.",
+          achievements: [
+            "Configuração de estações de trabalho, hardware de vídeo e softwares de exibição em tempo real.",
+            "Resolução de problemas críticos de sistema e hardware sob pressão e prazos rigorosos.",
+            "Interface direta com apresentadores e diretores, garantindo estabilidade técnica durante as produções.",
+            "Controle preciso de fluxo de dados e sincronia para garantir a continuidade das transmissões.",
+          ],
+        },
+        {
+          id: "codecon-hackathon",
+          title: "Desenvolvedor Frontend",
+          company: "Codecon",
+          period: "2024",
+          // Note que o Hackathon não tem "employmentType", vamos tratar isso no componente!
+          description: "Desenvolvimento intensivo de uma aplicação de coleta de lixo inteligente durante 48 horas.",
+          achievements: [
+            "Liderei a estruturação de layouts responsivos utilizando HTML, CSS e JavaScript.",
+            "Classificação entre os 6 melhores projetos da competição geral.",
+            "Gerenciamento de versionamento com Git em equipe multidisciplinar sob prazos rigorosos.",
+          ]
+        }
+      ]
     },
     education: {
       title: "Formação Acadêmica",
