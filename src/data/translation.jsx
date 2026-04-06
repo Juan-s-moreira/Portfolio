@@ -84,8 +84,8 @@ export const translations = {
           "Infrastructure & Security: Fundamentals of networking, information security, and cloud computing."
         ],
       },
-      certifications: {
-        title: "Languages & Certifications",
+      languages: {
+        title: "Languages",
         items: ["English – C1 (Advanced Proficiency)"],
       },
     },
@@ -228,8 +228,8 @@ export const translations = {
           "Infraestrutura e Segurança: Fundamentos de redes, segurança da informação e computação em nuvem."],
       },
 
-      certifications: {
-        title: "Idiomas e Certificações",
+      languages: {
+        title: "Idiomas",
         items: [
           "Inglês – C1 (Avançado)",
         ],
