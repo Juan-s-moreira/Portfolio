@@ -122,6 +122,7 @@ export const translations = {
     contact: {
       title: "Get In Touch",
       description: "I'm always open to discussing new opportunities and interesting projects. Feel free to reach out!",
+      ctaForm: "Send me a message",
       form: {
         name: "Your Name",
         phone: "Phone Number",
@@ -132,9 +133,14 @@ export const translations = {
         error: "Something went wrong. Please try again.",
       },
       social: {
+        ctaSocial: "Connect with me",
         email: "Contact via Email",
         github: "View GitHub",
         linkedin: "Connect on LinkedIn",
+        whatsapp: "Chat on WhatsApp",
+        whatsappMessage: "Hi Juan, I saw your portfolio and wanted to talk!",
+        cta: "Let's work together",
+        ctainvite: "Looking for my first official 'commit' in the tech world! Frontend Developer focused on building awesome and accessible interfaces with the MERN stack. Let's build something great together?"
       },
     },
     footer: {
@@ -202,7 +208,6 @@ export const translations = {
           title: "Desenvolvedor Frontend",
           company: "Codecon",
           period: "2024",
-          // Note que o Hackathon não tem "employmentType", vamos tratar isso no componente!
           description: "Desenvolvimento intensivo de uma aplicação de coleta de lixo inteligente durante 48 horas.",
           achievements: [
             "Liderei a estruturação de layouts responsivos utilizando HTML, CSS e JavaScript.",
@@ -269,6 +274,7 @@ export const translations = {
       title: "Entre em Contato",
       description:
         "Estou sempre aberto para discutir novas oportunidades e projetos interessantes. Sinta-se à vontade para entrar em contato!",
+      ctaForm: "Envie-me uma mensagem",
       form: {
         name: "Seu Nome",
         phone: "Número de Telefone",
@@ -279,9 +285,14 @@ export const translations = {
         error: "Algo deu errado. Tente novamente.",
       },
       social: {
+        ctaSocial: "Conecte-se comigo",
         email: "Contato via Email",
         github: "Ver GitHub",
         linkedin: "Conectar no LinkedIn",
+        whatsapp: "Conversar no WhatsApp",
+        whatsappMessage: "Olá Juan, vi seu portfólio e gostaria de conversar!",
+        cta: "Vamos trabalhar juntos",
+        ctaInvite: "Buscando meu primeiro 'commit' oficial no mundo tech! Desenvolvedor Frontend focado em construir interfaces incríveis e acessíveis com a MERN stack. Vamos construir algo ótimo juntos?"
       },
     },
     footer: {

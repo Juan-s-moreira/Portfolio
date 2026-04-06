@@ -46,12 +46,19 @@ function Projects() {
                 <div className="card-actions justify-center gap-3 mt-auto pt-4 ">
                   {project.demo && (
 
-                    <a href={project.demo} target='_blank' className="btn btn-primary btn-sm flex-1 bg-purple-600 border-none hover:bg-purple-700 text-white">
+                    <a href={project.demo}
+                      rel="noopener noreferrer"
+                      target='_blank'
+                      className="btn btn-primary btn-sm flex-1 bg-purple-600 border-none hover:bg-purple-700 text-white">
                       <ExternalLink />
                       Demo
                     </a>
                   )}
-                  <a href={project.github} className="btn btn-outline btn-sm flex-1 border-purple-600 text-purple-400 hover:text-white hover:bg-purple-600 hover:border-purple-600 transition-colors duration-300">
+                  <a href={project.github}
+                    className="btn btn-outline btn-sm flex-1 border-purple-600 text-purple-400 hover:text-white hover:bg-purple-600 hover:border-purple-600 transition-colors duration-300"
+                    rel="noopener noreferrer"
+                  >
+
                     <Github />
                     Github
                   </a>
