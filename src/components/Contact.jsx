@@ -2,6 +2,7 @@ import { translations } from "../data/translation"
 import { useLanguage } from "../contexts/LanguageContext"
 import { useState } from "react"
 import { Github, Linkedin, Mail, MessageCircle } from "lucide-react"
+import emailJs from "@emailjs/browser"
 
 
 const Contact = () => {
@@ -28,12 +29,21 @@ const Contact = () => {
         setSubmitStatus(null)
 
         try {
-            await new Promise((resolve) => setTimeout(resolve, 1000))
+            await emailJs.send(
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+                {
+                    name: formData.name,
+                    phone: formData.phone,
+                    message: formData.message,
+                },
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+            )
             console.log("Form submitted:", formData)
             setSubmitStatus("success")
             setFormData({ name: "", phone: "", message: "" })
         } catch (error) {
-            setSubmitStatus("error", error)
+            setSubmitStatus("erro ao enviar email", error)
         } finally {
             setIsSubmitting(false)
         }
@@ -169,7 +179,7 @@ const Contact = () => {
                                     {t.contact.social.cta}
                                 </h4>
                                 <p className="text-gray-300 text-sm leading-relaxed">
-                                    {language === 'pt' ? t.contact.social.ctaInvite : t.contact.social.ctainvite}
+                                    {language === 'pt' ? t.contact.social.ctaInvite : t.contact.social.ctaInvite}
                                 </p>
                             </div>
                         </div>

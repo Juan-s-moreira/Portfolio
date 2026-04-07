@@ -140,7 +140,7 @@ export const translations = {
         whatsapp: "Chat on WhatsApp",
         whatsappMessage: "Hi Juan, I saw your portfolio and wanted to talk!",
         cta: "Let's work together",
-        ctainvite: "Looking for my first official 'commit' in the tech world! Frontend Developer focused on building awesome and accessible interfaces with the MERN stack. Let's build something great together?"
+        ctaInvite: "Looking for my first official 'commit' in the tech world! Frontend Developer focused on building awesome and accessible interfaces with the MERN stack. Let's build something great together?"
       },
     },
     footer: {
