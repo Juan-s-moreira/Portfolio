@@ -84,10 +84,6 @@ export const translations = {
           "Infrastructure & Security: Fundamentals of networking, information security, and cloud computing."
         ],
       },
-      languages: {
-        title: "Languages",
-        items: ["English – C1 (Advanced Proficiency)"],
-      },
     },
     projects: {
       title: "Featured Projects",
@@ -111,13 +107,17 @@ export const translations = {
       },
     },
     skills: {
-      title: "Skills & Technologies",
+      title: "Skills & Languages",
       items: [
         "JavaScript (ES6+)", "HTML5", "CSS3", "React", "Node.js",
         "Express.js", "Tailwind CSS", "MongoDB", "MERN Stack",
         "RESTful APIs", "Responsive Design", "Web Accessibility (a11y)",
-        "Git", "GitHub", "English – C1 (Advanced)"
-      ]
+        "Git", "GitHub",
+      ],
+      languages: {
+        title: "Languages",
+        items: ["English – C1 (Advanced Proficiency)"],
+      },
     },
     contact: {
       title: "Get In Touch",
@@ -232,13 +232,6 @@ export const translations = {
           "Gestão de Dados: Modelagem e manipulação de bancos de dados relacionais (SQL) e não-relacionais (NoSQL).",
           "Infraestrutura e Segurança: Fundamentos de redes, segurança da informação e computação em nuvem."],
       },
-
-      languages: {
-        title: "Idiomas",
-        items: [
-          "Inglês – C1 (Avançado)",
-        ],
-      },
     },
     projects: {
       title: "Projetos em Destaque",
@@ -262,13 +255,19 @@ export const translations = {
       },
     },
     skills: {
-      title: "Habilidades & Tecnologias",
+      title: "Habilidades & Idiomas",
       items: [
         "JavaScript (ES6+)", "HTML5", "CSS3", "React", "Node.js",
         "Express.js", "Tailwind CSS", "MongoDB", "MERN Stack",
         "APIs RESTful", "Design Responsivo", "Acessibilidade Web (a11y)",
-        "Git", "GitHub", "Inglês – C1 (Avançado)"
-      ]
+        "Git", "GitHub",
+      ],
+      languages: {
+        title: "Idiomas",
+        items: [
+          "Inglês – C1 (Avançado)",
+        ],
+      },
     },
     contact: {
       title: "Entre em Contato",

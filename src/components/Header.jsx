@@ -40,6 +40,10 @@ const Header = () => {
 
                             className="text-gray-300 hover:text-purple-300 transition-colors duration-300 cursor-pointer"> {t.nav.skills}</button>
                         <button
+                            onClick={() => scrollToSection("experience")}
+
+                            className="text-gray-300 hover:text-purple-300 transition-colors duration-300 cursor-pointer"> {t.nav.experience}</button>
+                        <button
                             onClick={() => scrollToSection("education")}
 
                             className="text-gray-300 hover:text-purple-300 transition-colors duration-300 cursor-pointer">{t.nav.education}</button>
@@ -81,6 +85,11 @@ const Header = () => {
                                 onClick={() => scrollToSection("skills")}
                                 className="text-gray-300 hover:text-purple-400 transition-colors text-left">
                                 {t.nav.skills}
+                            </button>
+                            <button
+                                onClick={() => scrollToSection("experience")}
+                                className="text-gray-300 hover:text-purple-400 transition-colors text-left">
+                                {t.nav.experience}
                             </button>
                             <button
                                 onClick={() => scrollToSection("education")}

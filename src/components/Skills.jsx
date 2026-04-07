@@ -1,5 +1,6 @@
 import { translations } from "../data/translation";
 import { useLanguage } from "../contexts/LanguageContext";
+import { Globe } from "lucide-react";
 
 const Skills = () => {
   const { language } = useLanguage();
@@ -18,7 +19,6 @@ const Skills = () => {
         <div className="max-w-4xl mx-auto">
           <div className="card bg-gray-800/80 backdrop-blur-sm border border-gray-700 shadow-xl">
             <div className="card-body p-8 md:p-12">
-
               <div className="flex flex-wrap gap-4 justify-center">
                 {t.skills.items.map((skill) => (
                   <span
@@ -29,7 +29,21 @@ const Skills = () => {
                   </span>
                 ))}
               </div>
-
+            </div>
+          </div>
+          <div className="card bg-gray-800/80 backdrop-blur-sm border border-gray-700 mt-6 shadow-xl ">
+            <div className="card-body">
+              <h3 className="card-title text-purple-400 text-xl justify-center">
+                <Globe size={24}/>
+                {t.skills.languages.title}
+              </h3>
+              <div className="flex flex-wrap justify-center gap-4 mt-4">
+                {t.skills.languages.items.map((lang) => (
+                  <div key={lang} className="flex items-center">
+                    <span className="text-gray-300">{lang}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

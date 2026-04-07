@@ -36,20 +36,6 @@ const Education = () => {
           </div>
         </div>
       </div>
-      <div className="card bg-gray-800/80 backdrop-blur-sm border border-gray-700 max-w-2xl mx-auto">
-        <div className="card-body">
-          <h3 className="card-title text-purple-400 text-xl justify-center">
-            {t.education.languages.title}
-          </h3>
-          <div className="flex flex-wrap justify-center gap-4 mt-4">
-            {t.education.languages.items.map((lang) => (
-              <div key={lang} className="flex items-center">
-                <span text-gray-300> {lang}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
     </section>
   )
 }
