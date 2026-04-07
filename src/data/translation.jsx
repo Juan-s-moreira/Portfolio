@@ -9,7 +9,7 @@ export const translations = {
       education: "Education",
     },
     hero: {
-      greeting: "Hi, I'm",
+      greetings: "Hi, I'm",
       name: "Juan Santos",
       titles: ["Frontend Developer"],
       description:
@@ -157,7 +157,7 @@ export const translations = {
       education: "Educação",
     },
     hero: {
-      greeting: "Olá, eu sou",
+      greetings: "Olá, eu sou",
       name: "Juan Santos",
       titles: ["Desenvolvedor Frontend"],
       description:
