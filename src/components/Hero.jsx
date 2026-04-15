@@ -73,7 +73,7 @@ const Hero = () => {
 
 
           <div className="flex flex-col sm:flex-row gap-4 mt-10 w-full sm:w-auto">
-            <a href={language === 'pt' ? '/curriculo_juan_santos.pdf' : '/juan_santos_resume.pdf'} className="px-8 py-3 bg-purple-600 hover:bg-pink-500 text-white rounded-lg font-semibold transition-all duration-300 text-center" download={language === 'pt' ? 'curriculo_juan_santos' : 'juan_santos_resume'} >
+            <a href={language === 'pt' ? '/curriculo_juan_santosM.pdf' : '/juan_santos_resume.pdf'} className="px-8 py-3 bg-purple-600 hover:bg-pink-500 text-white rounded-lg font-semibold transition-all duration-300 text-center" download={language === 'pt' ? 'curriculo_juan_santos' : 'juan_santos_resume'} >
               {language === 'pt' ? 'Currículo' : 'Resume'}
             </a>
             <a href="#contact" className="px-8 py-3 bg-transparent border border-purple-500 text-purple-400 hover:bg-pink-500 hover:text-white rounded-lg font-semibold transition-all duration-300 text-center">
